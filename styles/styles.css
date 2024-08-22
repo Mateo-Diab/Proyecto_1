@@ -1,0 +1,212 @@
+/* Body  */
+body {
+    background: url('/styles/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Header */
+#head-container {
+    background-color: rgba(113, 105, 94, 0.31);
+    text-align: center;
+    padding: 1vw 0;
+    border: 0.7vw ridge rgba(128, 0, 0, 0.577);
+    border-top: none;
+    border-bottom: none;
+    width: 50vw;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Titulos */
+.titles {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-shadow: 2px 3px 2px rgba(128, 0, 0, 0.653);
+    overflow: hidden;
+}
+
+/* Sub-Titulos */
+.sub-titles {
+    font-weight: 700;
+    text-shadow: 2px 3px 2px rgba(128, 0, 0, 0.38);
+}
+
+/* Sobre Mi Estilos */
+#about-me {
+    background-color: rgba(113, 105, 94, 0.31);
+    text-align: center;
+    padding: 1.2vw 0 3vw;
+    border: 0.7vw ridge rgba(128, 0, 0, 0.577);
+    border-top: 5px dashed rgba(128, 0, 0, 0.577);
+    border-bottom: none;
+    width: 50vw;
+    margin: auto;
+    overflow: hidden;
+}
+
+#text-abme {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1000;
+}
+
+/* Idiomas estilos */
+#ita {
+    text-shadow: 1px 1px 1px rgba(30, 177, 1, 0.795);
+}
+
+.li {
+    text-shadow: 1px 1px 1px white;
+}
+
+.ano {
+    text-shadow: 1px 1px 1px rgba(241, 3, 3, 0.699);
+}
+
+.fra {
+    text-shadow: 1px 1px 1px rgba(1, 17, 240, 0.795);
+}
+
+/* Henry */
+#henry {
+    text-decoration: underline;
+    color: rgba(158, 51, 18, 0.53);
+}
+
+#henry:hover {
+    transition: color 0.45s, font-size 0.45s;
+    color: rgba(160, 62, 6, 0.915);
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* Estilos de tecnologias */
+#tech-container {
+    background-color: rgba(113, 105, 94, 0.31);
+    text-align: center;
+    padding: 1vw 0;
+    border: 0.7vw ridge rgba(128, 0, 0, 0.577);
+    border-top: 5px dashed rgba(128, 0, 0, 0.577);
+    border-bottom: none;
+    width: 50vw;
+    margin: auto;
+    overflow: hidden;
+}
+
+.tech-imgs-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.tech-imgs {
+    width: 14vw;
+}
+
+.tech-imgs:hover {
+    border: 1vw dashed rgba(209, 101, 101, 0.256);
+    border-radius: 5%;
+    transition: border 0.5s;
+}
+
+/* Formulario estilos */
+#form-container {
+    background-color: rgba(113, 105, 94, 0.31);
+    text-align: center;
+    padding: 1vw 0;
+    border: 0.7vw ridge rgba(128, 0, 0, 0.577);
+    border-top: 5px dashed rgba(128, 0, 0, 0.577);
+    border-bottom: none;
+    width: 50vw;
+    margin: auto;
+}
+
+#form {
+    padding: 1vw;
+    border: 0.7vw ridge rgba(128, 0, 0, 0.577);
+    width: 45vw;
+    margin: 30px auto 0;
+}
+
+input, textarea {
+    border-radius: 5%;
+    border: 5px ridge rgba(128, 0, 0, 0.398);
+    padding: 0.5rem;
+    width: 100%;
+}
+
+textarea {
+    margin: auto;
+}
+
+.as {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* Tarjetas estilos */
+
+/* Contenedores de tarjetas */
+.tarjetas-container {
+    height: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 10px; 
+    justify-content: center; 
+}
+
+/* Estilos para las tarjetas */
+.tarjeta {
+    margin-top: 1.5vw;
+    border: 1px solid #b40c0c8e;
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px rgba(219, 0, 0, 0.438);
+    padding: 10px;
+    width: 200px; 
+    box-sizing: border-box; 
+}
+
+/* Estilos para los elementos dentro de la tarjeta */
+.tarjeta-titulo {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.tarjeta-descripcion {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.tarjeta-imagen {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px;
+}
+
+
+/* Estilos de los botones */
+#boton {
+    border: 0.5vw outset rgba(165, 42, 42, 0.695);
+    width: fit-content;
+    margin: auto;
+    margin-top: 1vw;
+    padding: 5px;
+}
+
+#textto {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#textto:hover {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px rgba(165, 42, 42, 0.324);
+    transition: font-size 0.5s, font-weight 0.5s;
+}

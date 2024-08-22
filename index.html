@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Proyecto M1</title>
+</head>
+
+<body>
+
+    <!-- Header de mi página web -->
+    <header id="head-container">
+        <h1 class="titles">Mateo Nallib Diab</h1>
+        <h2 class="sub-titles">Mi página web-Proyecto M1</h2>
+    </header>
+
+    <!-- Sobre mi -->
+    <section id="about-me">
+        <article>
+            <h2 class="titles">Sobre Mi</h2>
+            <p id="text-abme">Hola, soy Mateo Nallib Diab, tengo 20 años, de Santa Fe Capital, Argentina y actualmente resido en Francia.
+            <br>
+            Me gusta la programación y cada día enfrentarme a nuevos desafíos y objetivos. Con el bootcamp de <a target="_blank" href="https://www.soyhenry.com/webfullstack"><span id="henry">"Soy Henry FullStack"</span></a>, mi objetivo es trabajar y seguir estudiando programación a nivel universitario.
+            <br>
+            Me encantan los idiomas, hablo <span class="li">In</span><span class="ano">gl</span><span class="fra">és</span>, <span class="fra">Fra</span><span class="li">nc</span><span class="ano">és</span> e
+            <span id="ita">Ita</span><span class="li">lia</span><span class="ano">no</span>, y uno de mis hobbies favoritos es la gastronomía.        
+            </p>
+        </article>
+    </section>
+
+    <!-- Mis Tecnologías Favoritas -->
+    <section>
+        <article id="tech-container">
+
+            <h2 class="titles">Mis Tecnologías Favoritas</h2>
+            
+            <div class="tech-imgs-container">
+                
+                <div class="tech-imgs">
+                    <a target="_blank" href="https://es.wikipedia.org/wiki/html">
+                        <img src="./styles/html.png" alt="HTML Logo">
+                    </a>
+                </div>
+            
+                <div class="tech-imgs">
+                    <a target="_blank" href="https://es.wikipedia.org/wiki/CSS">
+                        <img src="./styles/css.png" alt="CSS Logo">
+                    </a>
+                </div>
+            
+                <div class="tech-imgs">
+                    <a target="_blank" href="https://es.wikipedia.org/wiki/JavaScript">
+                        <img src="./styles/js.png" alt="JS Logo">
+                    </a>
+                </div>
+            
+            </div>
+        
+        </article>
+    </section>
+
+    <!-- Formulario y Tarjetas -->
+    <section id="form-container">
+        
+        <h2 class="titles">Mis Actividades Favoritas</h2>
+        
+        <form id="form">
+            
+            <div class="ass">
+                <label for="Titulo" class="as">Título</label>
+                <input type="text" id="Titulo" name="title" placeholder="Ingresar el título">
+            </div>
+            
+            <div id="miau">
+                <label for="comentario" class="as">Descripción</label>
+                <textarea id="comentario" name="comentario" cols="30" rows="10" placeholder="Ingrese una descripción"></textarea>
+            </div>
+            
+            <div>
+                <label for="url" class="as">URL</label>
+                <input type="text" id="url" name="nombre" placeholder="URL de la imagen">
+            </div>
+
+            <div id="boton">
+                <button type="submit"><span id="textto">Agregar Tarjeta</span></button>
+            </div>
+        </form>
+        
+        <div class="tarjetas-container"></div>
+    
+    </section>
+
+    <script src="./scripts/index.js" type="module"></script>
+
+</body>
+
+</html>
