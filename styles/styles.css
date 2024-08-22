@@ -1,6 +1,6 @@
 /* Body  */
 body {
-    background: url('/styles/background.jpg') no-repeat center center fixed;
+    background: url('/styles/background.jpg') no-repeat, center, fixed;
     background-size: cover;
 }
 
